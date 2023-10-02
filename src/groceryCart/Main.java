@@ -19,11 +19,8 @@ public class Main {
                 switch (process){
                     case 0:
                         System.exit(0);
-                    case 1:
-                        GroceryList.addItems(groceryList);
-                        break;
-                    case 2:
-                        GroceryList.removeItems(groceryList);
+                    case 1, 2:
+                        GroceryList.toggleItems(groceryList);
                         break;
                     default:
                         System.out.println("Process must be 0-1-2");
@@ -37,3 +34,4 @@ public class Main {
         }
     }
 }
+

@@ -19,6 +19,6 @@ public class Contact {
 
     public static Object createContact(String Name, String phoneNumber){
         Object[] contact;
-        return contact[Name, phoneNumber];
+        return contact[Name, phoneNumber];;
     }
 }
